@@ -5,7 +5,7 @@ OBJECTS = main.o
 TARGET = hellosdl
 
 $(TARGET) : $(OBJECTS)
-	$(CXX) $(LDFLAGS) $(CXXFLAGS) -o $(TARGET) $(OBJECTS)
+	$(CXX) $(CXXFLAGS) -o $(TARGET) $(OBJECTS)  $(LDFLAGS)
 
 main.o :
 
