@@ -48,7 +48,7 @@ int main(int argc, char* args[])
       SDL_RenderClear(renderer);
  
       // TODO rendering code goes here
-      SDL_SetRenderDrawColor(renderer, 255, 0, 0, 255);
+      SDL_SetRenderDrawColor(renderer, 0, 240, 0, 255);
       SDL_RenderDrawLine(renderer, 10+dx, 10+dy, 100, 150);
 
 	
